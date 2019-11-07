@@ -23,6 +23,7 @@ public class EshopPage {
         this.driver = driver;
         PageFactory.initElements(driver, this);
         wait = new WebDriverWait(driver, 10);
+        /* to pause your test you still using sleep instead of explicit wait */
     }
 
 

@@ -68,7 +68,6 @@ public class MyStepdefs {
         eshopPage.setPayByCheck();
 
     }
-
     @And("^confirm order$")
     public void confirmOrder() {
         eshopPage.setConfirmOrder();
